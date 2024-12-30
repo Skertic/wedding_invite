@@ -226,6 +226,13 @@ body {
     padding-left: 24px;
     font-size: 12px;
   }
+  .rule-holder {
+    display: flex;
+    flex-direction: column;
+  }
+  .rule-holder ol li{
+    max-width: 300px;
+  }
 /* Desktop adjustments */
 @media (min-width: 1024px) {
   
@@ -344,6 +351,10 @@ cursor:pointer;
     }
     .location-holder {
       align-items: start;
+    }
+    .rule-holder {
+      flex-direction: row;
+      gap:32px;
     }
 }
 
